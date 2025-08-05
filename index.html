@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - 3D Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Initial View -->
+        <div id="game-start">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>Choose your weapon to challenge the computer!</p>
+            <div id="choices-container" class="choices">
+                <button class="choice-btn" id="rock">✊</button>
+                <button class="choice-btn" id="paper">✋</button>
+                <button class="choice-btn" id="scissors">✌️</button>
+            </div>
+        </div>
+
+        <!-- Result View -->
+        <div id="results-container" class="results hidden">
+            <h2 id="result-text"></h2>
+            <div class="choices-display">
+                <div id="user-choice" class="choice-display">
+                    <h3>You</h3>
+                    <span id="user-choice-icon" class="icon"></span>
+                </div>
+                <div id="computer-choice" class="choice-display">
+                    <h3>Computer</h3>
+                    <span id="computer-choice-icon" class="icon"></span>
+                </div>
+            </div>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+ 
+    </script>
+
+</body>
+</html>
